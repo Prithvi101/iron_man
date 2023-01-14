@@ -19,16 +19,7 @@ body {
 wrapper{
     display: inline-block;
 }
-@media only screen and (max-device-width: 480px) {
-    html {
-        max-width: 550px;
-        position: relative;
-        display:inline-table;
-        }
-    wrapper {
-            width: 400px;
-        }
-}
+
 
 
 .wrapper  .sidebar{  
@@ -140,13 +131,13 @@ wrapper{
   }
 
 .wrapper .main img{
+    display: inline-block;
     position:relative;
     width: 722px;
     height: 430px;
     margin-left: 31px;
     margin-top: 35px;
-    margin-bottom: 35px;
-    display: inline-block;
+    
    
 }
 
@@ -168,7 +159,7 @@ wrapper{
     display: inline-block;
     box-sizing: border-box;
     width: 1323px;
-    height: 464px;
+  
     position: relative;
     margin-left: 374px;
     margin-top: 35px;
