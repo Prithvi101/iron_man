@@ -153,7 +153,7 @@ wrapper{
 }
 
 /* Style page content */
-.wrapper .tax {
+.wrapper .main {
 
     display: inline-block;
     box-sizing: border-box;
@@ -167,7 +167,7 @@ wrapper{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
   }
-.wrapper .tax h3{
+.wrapper .main h3{
     
     white-space: nowrap;
     font-family: 'Poppins';
@@ -179,7 +179,7 @@ wrapper{
     margin-top: 37px;
     margin-left: 56px;
 }
-.wrapper .tax th, td {
+.wrapper .main th, td {
     padding: 1%;
     font-family: 'Poppins';
     font-style: normal;
@@ -193,7 +193,7 @@ wrapper{
     
     text-align: left;
 }
-.wrapper .tax table {
+.wrapper .main table {
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 30px;
     width: 1227px;
@@ -203,14 +203,14 @@ wrapper{
     margin-bottom: 35px;
 }
 
-.wrapper .tax  th {
+.wrapper .main  th {
     border-left:1px solid rgba(255, 255, 255, 0.5);;
     border-bottom:1px solid rgba(255, 255, 255, 0.5);
 }
-.wrapper .tax  th:first-child {
+.wrapper .main  th:first-child {
     border-left:none;
 }
-.wrapper .tax  td:first-child {
+.wrapper .main  td:first-child {
     border-left:none;
 }
 
