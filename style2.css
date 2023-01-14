@@ -19,10 +19,7 @@ body {
 wrapper{
     display: inline-block;
 }
-a, a:visited, a:hover, a:active {
-    color: inherit;
-    text-decoration: underline;
-  }
+
 
 
 .wrapper  .sidebar{  
@@ -128,6 +125,10 @@ a, a:visited, a:hover, a:active {
     margin-top: 35px;
     color: rgba(255, 255, 255, 0.5);
 }
+.wrapper .main  a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: underline;
+  }
 
 .wrapper .main img{
     position:relative;
